@@ -1,0 +1,7 @@
+Howto communicate across two different applications ?
+  - Using RestTemplate
+
+Load Balancing using ribbon
+  - Ribbon uses Round Robin strategy
+  - The strategy can be overriden. Example : RandomRule
+  - 
