@@ -5,3 +5,10 @@ Load Balancing using ribbon
   - Ribbon uses Round Robin strategy
   - The strategy can be overriden. Example : RandomRule
   - 
+
+Service Discovery with Eureka 
+
+Circuit breaker with Hystrix
+
+Security with Oauth
+
