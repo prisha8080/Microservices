@@ -1,0 +1,9 @@
+brew info postgres
+brew postgresql-upgrade-database
+
+brew services restart postgresql
+
+pg_isready
+rm /usr/local/var/postgres/postmaster.pid
+brew services restart postgresql
+pg_isready
