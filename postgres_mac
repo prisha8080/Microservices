@@ -7,3 +7,21 @@ pg_isready
 rm /usr/local/var/postgres/postmaster.pid
 brew services restart postgresql
 pg_isready
+psql postgres
+
+# List all databases
+\l
+
+# Switch to a database
+\c <database name>
+
+# Show all tables
+\dt
+
+# Describe a table
+\d <table name>
+
+# Check the version of postgres
+select version();
+
+
